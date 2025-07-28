@@ -1,0 +1,203 @@
+/* Единые стили для галереи карточек */
+.trade-section .card-grid,
+.engineering-section .card-grid,
+.trade-detail .card-grid,
+body[class*="trade/"] .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 30px;
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+/* Единые стили для карточек */
+.trade-section .card,
+.engineering-section .card,
+.trade-detail .card,
+body[class*="trade/"] .card {
+    background: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Унифицированные эффекты наведения */
+.trade-section .card:hover,
+.engineering-section .card:hover,
+.trade-detail .card:hover,
+body[class*="trade/"] .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Унифицированные изображения в карточках */
+.trade-section .card-image,
+.engineering-section .card-image,
+.trade-detail .card-image,
+body[class*="trade/"] .card-image {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 66.67%; /* Соотношение 3:2 */
+    overflow: hidden;
+    background-color: #f5f5f5;
+}
+
+.trade-section .card-image img,
+.engineering-section .card-image img,
+.trade-detail .card-image img,
+body[class*="trade/"] .card-image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.trade-section .card:hover .card-image img,
+.engineering-section .card:hover .card-image img,
+.trade-detail .card:hover .card-image img,
+body[class*="trade/"] .card:hover .card-image img {
+    transform: scale(1.05);
+}
+
+/* Унифицированное содержимое карточек */
+.trade-section .card-content,
+.engineering-section .card-content,
+.trade-detail .card-content,
+body[class*="trade/"] .card-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-grow: 1;
+    background-color: #ffffff;
+}
+
+.trade-section .card-title,
+.engineering-section .card-title,
+.trade-detail .card-title,
+body[class*="trade/"] .card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 0;
+    color: #333;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.4;
+}
+
+/* Стили для заголовков секций */
+.trade-section .section-header,
+.engineering-section .section-header {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 2rem 0;
+}
+
+.trade-section .section-header h1,
+.engineering-section .section-header h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Адаптивность */
+@media (max-width: 1200px) {
+    .trade-section .card-grid,
+    .engineering-section .card-grid,
+    .trade-detail .card-grid,
+    body[class*="trade/"] .card-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px;
+        padding: 25px;
+    }
+}
+
+@media (max-width: 992px) {
+    .trade-section .card-grid,
+    .engineering-section .card-grid,
+    .trade-detail .card-grid,
+    body[class*="trade/"] .card-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .trade-section .section-header h1,
+    .engineering-section .section-header h1 {
+        font-size: 1.75rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .trade-section .card-grid,
+    .engineering-section .card-grid,
+    .trade-detail .card-grid,
+    body[class*="trade/"] .card-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        padding: 15px;
+    }
+
+    .trade-section .card-title,
+    .engineering-section .card-title,
+    .trade-detail .card-title,
+    body[class*="trade/"] .card-title {
+        font-size: 1.1rem;
+    }
+
+    .trade-section .section-header h1,
+    .engineering-section .section-header h1 {
+        font-size: 1.5rem;
+    }
+
+    .trade-section .section-header,
+    .engineering-section .section-header {
+        padding: 1.5rem 0;
+    }
+}
+
+/* Исправление цвета заголовка в разделе automation-control */
+.trade-detail h1,
+[href*="trade/"] ~ .detail-hero h1,
+body[class*="trade/"] .detail-hero h1,
+.trade-detail-page .detail-hero h1 {
+    color: #333333 !important;
+    text-shadow: none !important;
+}
+
+/* Скрытие подзаголовка */
+.trade-detail-page .detail-hero p:not(.hero-subtitle),
+body[class*="trade/"] .detail-hero p:not(.hero-subtitle) {
+    display: none !important;
+}
+
+/* Удаление синего выделения при активации карточки */
+.trade-section .card:focus,
+.trade-section .card:active,
+.trade-section .card:focus-within,
+.trade-detail .card:focus,
+.trade-detail .card:active,
+.trade-detail .card:focus-within,
+.engineering-section .card:focus,
+.engineering-section .card:active,
+.engineering-section .card:focus-within {
+    outline: none !important;
+    border-color: transparent !important;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15) !important;
+} 

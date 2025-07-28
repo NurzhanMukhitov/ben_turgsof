@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact ALSURO - Get in Touch with Our Team">
+    <title>Contact Us - ALSURO</title>
+    <link rel="preload" href="assets/fonts/Montserrat-Bold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="assets/fonts/OpenSans-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css?v=1">
+    <link rel="stylesheet" href="assets/css/contact.css?v=1">
+    <link rel="stylesheet" href="assets/css/responsive.css?v=1">
+    <link rel="stylesheet" href="assets/css/footer-sticky.css?v=1">
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon/favicon.ico">
+</head>
+<body class="contact-page">
+    <!-- Обертка для всего контента страницы -->
+    <div class="page-wrapper">
+        <!-- Skip to content link for accessibility -->
+        <a href="#main-content" class="sr-only">Skip to main content</a>
+
+        <!-- Header -->
+        <header class="header" role="banner">
+            <div class="container">
+                <a href="index.html" class="logo" aria-label="ALSURO home">
+                    <span class="logo-text">ALSURO</span>
+                </a>
+                <nav class="main-menu" role="navigation" aria-label="Main navigation" id="main-menu">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT US</a></li>
+                        <li><a href="engineering.html">ENGINEERING</a></li>
+                        <li><a href="trade.html">TRADING</a></li>
+                        <li><a href="contact.html" class="active" aria-current="page">CONTACT</a></li>
+                    </ul>
+                </nav>
+                <button class="mobile-menu-toggle" aria-expanded="false" aria-controls="main-menu" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </header>
+
+        <!-- Menu Overlay -->
+        <div class="menu-overlay" aria-hidden="true"></div>
+
+        <!-- Main Content -->
+        <main id="main-content" class="contact-section">
+            <div class="container">
+                <h1 class="section-title">Contact Us</h1>
+                <div class="contact-grid">
+                    <!-- Contact Info -->
+                    <div class="contact-info">
+                        <div class="info-block">
+                            <span class="icon icon-phone" aria-hidden="true"></span>
+                            <p><a href="tel:+34936949999">+34 936 949 999</a></p>
+                        </div>
+                        <div class="info-block">
+                            <span class="icon icon-email" aria-hidden="true"></span>
+                            <p><a href="mailto:info@alsuro.com">info@alsuro.com</a></p>
+                        </div>
+                        <div class="info-block">
+                            <span class="icon icon-location" aria-hidden="true"></span>
+                            <p>08007, España, Barcelona, Carrer d'Aragó, 264, 5-3</p>
+                        </div>
+                        <div class="map-container">
+                            <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993.6366603796546!2d2.1637152761455387!3d41.39274999636181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a2ecf3d6f425%3A0x5dd5e45b4d0d0a39!2sCarrer%20d&#39;Arag%C3%B3%2C%20264%2C%2008007%20Barcelona%2C%20Spain!5e0!3m2!1sen!2sus!4v1709627130010!5m2!1sen!2sus"
+                                width="100%" 
+                                height="200" 
+                                style="border:0;" 
+                                allowfullscreen="" 
+                                loading="lazy" 
+                                referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="contact-form">
+                        <form id="contactForm" action="https://formspree.io/f/xkgoddgz" method="POST">
+                            <input type="hidden" name="_subject" value="New Contact Form Submission - ALSURO">
+                            <input type="hidden" name="_next" value="http://localhost:8000/thank-you.html">
+                            
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <input type="text" id="firstName" name="firstName" required placeholder=" ">
+                                    <label for="firstName">First Name</label>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" id="lastName" name="lastName" required placeholder=" ">
+                                    <label for="lastName">Last Name</label>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <input type="email" id="email" name="_replyto" required placeholder=" ">
+                                    <label for="email">E-mail *</label>
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" id="phone" name="phone" placeholder=" ">
+                                    <label for="phone">Phone</label>
+                                </div>
+                            </div>
+                            <div class="form-group full-width">
+                                <textarea id="message" name="message" required placeholder=" "></textarea>
+                                <label for="message">Message *</label>
+                            </div>
+                            <button type="submit" class="submit-button">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer" role="contentinfo">
+            <div class="container">
+                <div class="footer-top">
+                    <div class="footer-contact">
+                        <div class="footer-contact-item">
+                            <span class="icon icon-location" aria-hidden="true"></span>
+                            <a href="https://g.co/kgs/BFZ6YtK" target="_blank" rel="noopener" aria-label="Our address: 08007, España, Barcelona, Carrer d'Aragó, 264, 5-3">08007, España, Barcelona, Carrer d'Aragó, 264, 5-3</a>
+                        </div>
+                        <div class="footer-contact-item">
+                            <span class="icon icon-phone" aria-hidden="true"></span>
+                            <a href="tel:+34936949999" class="phone" aria-label="Call us: +34 936 949 999">+34 936 949 999</a>
+                        </div>
+                        <div class="footer-contact-item">
+                            <span class="icon icon-email" aria-hidden="true"></span>
+                            <a href="mailto:info@alsuro.com" class="email" aria-label="Email us: info@alsuro.com">info@alsuro.com</a>
+                        </div>
+                    </div>
+                    <div class="footer-links">
+                        <a href="cookies.html" aria-label="Политика использования файлов cookie и конфиденциальности">Cookies & Privacy</a>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>© <span id="current-year">2024</span> ALSURO - All rights reserved</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/main.js?v=1"></script>
+</body>
+</html>

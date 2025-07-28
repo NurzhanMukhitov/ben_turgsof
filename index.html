@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALSURO - Industrial Automation Solutions</title>
+    
+    <meta name="description" content="Leading supplier of industrial automation solutions and equipment. We specialize in engineering reliability and delivering innovation across industries.">
+    <link rel="canonical" href="https://alsuro.com">
+    
+    <meta property="og:site_name" content="ALSURO">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://alsuro.com">
+    <meta property="og:title" content="ALSURO - Industrial Automation Solutions">
+    <meta property="og:description" content="Leading supplier of industrial automation solutions and equipment. We specialize in engineering reliability and delivering innovation across industries.">
+    <meta property="og:image" content="https://alsuro.com/assets/images/social/social-preview_400.png">
+    <meta property="og:image:width" content="400">
+    <meta property="og:image:height" content="400">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
+    <link rel="manifest" href="assets/images/favicon/site.webmanifest">
+    <meta name="theme-color" content="#ffffff">
+    
+    <!-- Essential Meta Tags for Social Media -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@alsuro">
+    <meta name="twitter:title" content="ALSURO - Industrial Automation Solutions">
+    <meta name="twitter:description" content="Leading supplier of industrial automation solutions and equipment. We specialize in engineering reliability and delivering innovation across industries.">
+    <meta name="twitter:image" content="https://alsuro.com/assets/images/social/social-preview.jpg">
+    
+    <link rel="preload" href="assets/fonts/Montserrat-Bold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="assets/fonts/OpenSans-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <!-- Preload video -->
+    <link rel="preload" href="assets/video/main_video.webm" as="video" type="video/webm" />
+    <link rel="preload" href="assets/video/main_video_mobile.webm" as="video" type="video/webm" media="(max-width: 768px)" />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <script>
+        // Проверка поддержки формата WebP
+        function checkWebp() {
+            var img = new Image();
+            img.onload = function() {
+                var result = (img.width > 0) && (img.height > 0);
+                document.documentElement.className = result ? 'webp' : 'no-webp';
+            };
+            img.onerror = function() {
+                document.documentElement.className = 'no-webp';
+            };
+            img.src = 'data:image/webp;base64,UklGRiQAAABXRUJQVlA4IBgAAAAwAQCdASoBAAEAAwA0JaQAA3AA/vuUAAA=';
+        }
+        checkWebp();
+    </script>
+</head>
+<body>
+    <!-- Skip to content link for accessibility -->
+    <a href="#main-content" class="sr-only">Skip to main content</a>
+
+    <!-- Header -->
+    <header class="header" role="banner">
+        <div class="container">
+            <a href="index.html" class="logo" aria-label="ALSURO home">
+                <span class="logo-text">ALSURO</span>
+            </a>
+            <nav class="main-menu" role="navigation" aria-label="Main navigation" id="main-menu">
+                <ul>
+                    <li><a href="index.html" class="active" aria-current="page">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="engineering.html">ENGINEERING</a></li>
+                    <li><a href="trade.html">TRADING</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-menu-toggle" aria-expanded="false" aria-controls="main-menu" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Menu Overlay -->
+    <div class="menu-overlay" aria-hidden="true"></div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="main-content">
+        <video autoplay loop muted playsinline class="hero-video" poster="assets/images/resize/mobile.webp" preload="auto">
+            <!-- Используем одно высококачественное видео для всех устройств -->
+            <source src="assets/video/main_video.webm" type="video/webm">
+        </video>
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1>
+                    <span>ENGINEERING RELIABILITY</span>
+                    <span>DELIVERING INNOVATION</span>
+                </h1>
+                <div class="cta-text">Let's Build the Future Together</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scripts -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

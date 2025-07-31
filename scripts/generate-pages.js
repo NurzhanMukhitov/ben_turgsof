@@ -25,8 +25,8 @@ function generatePageHTML(category) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="${category.title} - ${category.subtitle} - ALSURO">
-    <title>${category.title} - ALSURO</title>
+    <meta name="description" content="${category.title} - ${category.subtitle} - TURGSOF">
+    <title>${category.title} - TURGSOF</title>
     <link rel="preload" href="../assets/fonts/Montserrat-Bold.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="../assets/fonts/OpenSans-Regular.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="../assets/css/style.css">
@@ -41,8 +41,8 @@ function generatePageHTML(category) {
     <!-- Header -->
     <header class="header" role="banner">
         <div class="container">
-            <a href="../index.html" class="logo" aria-label="ALSURO home">
-                <span class="logo-text">ALSURO</span>
+            <a href="../index.html" class="logo" aria-label="TURGSOF home">
+                <span class="logo-text">TURGSOF</span>
             </a>
             <nav class="main-menu" role="navigation" aria-label="Main navigation">
                 <ul>
@@ -152,7 +152,7 @@ function generatePageHTML(category) {
                     </div>
                     <div class="footer-contact-item">
                         <span class="icon email-icon" aria-hidden="true">&#x2709;</span>
-                        <a href="mailto:info@alsuro.com" class="email" aria-label="Email us at: info@alsuro.com">info@alsuro.com</a>
+                        <a href="mailto:info@turgsof.eu" class="email" aria-label="Email us: info@turgsof.eu">info@turgsof.eu</a>
                     </div>
                 </div>
                 <div class="footer-links">
@@ -160,7 +160,7 @@ function generatePageHTML(category) {
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; <span id="current-year"></span> ALSURO - All rights reserved</p>
+                <p>&copy; <span id="current-year"></span> TURGSOF - All rights reserved</p>
             </div>
         </div>
     </footer>

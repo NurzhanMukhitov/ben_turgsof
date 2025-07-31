@@ -1,6 +1,6 @@
-# ALSURO Website
+# TURGSOF Website
 ## Project Description
-Responsive website for ALSURO, focusing on engineering reliability and innovation.
+Responsive website for TURGSOF, focusing on engineering reliability and innovation.
 
 ## Technologies
 - HTML5

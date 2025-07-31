@@ -1,7 +1,7 @@
 {
-  "name": "alsuro-website",
+  "name": "turgsof-website",
   "version": "1.0.0",
-  "description": "ALSURO company website",
+  "description": "TURGSOF company website",
   "scripts": {
     "build:css": "postcss assets/css/*.css --dir dist/css --use autoprefixer cssnano",
     "build:js": "terser assets/js/*.js -o dist/js/bundle.min.js",

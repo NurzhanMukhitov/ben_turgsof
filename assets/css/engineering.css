@@ -120,6 +120,42 @@
     display: none;
 }
 
+.engineering-section .section-intro {
+    max-width: 860px;
+    margin: -10px auto 30px;
+    padding: 0 20px;
+    text-align: center;
+    color: #5b5b5b;
+    line-height: 1.6;
+}
+
+.engineering-section .card-content {
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.engineering-section .card-description {
+    display: -webkit-box;
+    color: #5b5b5b;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin: 0;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.card-grid-actions {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    padding: 0 20px;
+}
+
+.card-grid-toggle {
+    min-width: 220px;
+}
+
 /* Animations */
 @keyframes fadeInUp {
     from {
@@ -319,6 +355,15 @@
     .card {
         max-width: 320px;
         margin: 0 auto;
+    }
+
+    .engineering-section .section-intro {
+        margin-bottom: 20px;
+        font-size: 0.95rem;
+    }
+
+    .card-grid-actions {
+        margin-top: 20px;
     }
 }
 

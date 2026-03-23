@@ -242,6 +242,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // Запускаем после загрузки DOM
-    document.addEventListener('DOMContentLoaded', setupVideo);
+    // DOM уже загружен внутри текущего обработчика
+    setupVideo();
 });

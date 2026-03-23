@@ -156,7 +156,7 @@ function generatePageHTML(category) {
                     </div>
                 </div>
                 <div class="footer-links">
-                    <a href="#" aria-label="Cookies and Privacy Policy">Cookies & Privacy</a>
+                    <a href="../cookies.html" aria-label="Cookies and Privacy Policy">Cookies & Privacy</a>
                 </div>
             </div>
             <div class="footer-bottom">

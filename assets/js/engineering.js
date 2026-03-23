@@ -1,11 +1,15 @@
 // Engineering Categories Data
 // Импортируем данные из scripts/category-data.js
 
+const FEATURED_CATEGORY_IDS = [13, 14, 6, 16, 1, 8, 15, 11];
+
 // Функция для создания карточки категории
 function createCard(category) {
     const card = document.createElement('div');
     card.className = 'card';
     card.setAttribute('data-id', category.id);
+    card.setAttribute('role', 'link');
+    card.setAttribute('tabindex', '0');
 
     const cardImage = document.createElement('div');
     cardImage.className = 'card-image';
@@ -46,6 +50,13 @@ function createCard(category) {
     // Добавляем обработчик клика для перехода на страницу категории
     card.addEventListener('click', () => {
         window.location.href = category.link;
+    });
+
+    card.addEventListener('keydown', (event) => {
+        if (event.key === 'Enter' || event.key === ' ') {
+            event.preventDefault();
+            window.location.href = category.link;
+        }
     });
     
     return card;
@@ -121,14 +132,47 @@ function preloadImages() {
 
 // Функция для загрузки категорий
 function loadCategories() {
-    const container = document.querySelector('.card-grid');
+    const container = document.querySelector('.engineering-section .card-grid');
+    const toggleButton = document.querySelector('.card-grid-toggle');
     if (!container || !window.categories) return;
 
-    window.categories.forEach(category => {
-        const card = createCard(category);
-        container.appendChild(card);
-        loadImages(category);
-    });
+    const featuredCategories = FEATURED_CATEGORY_IDS
+        .map((id) => window.categories.find((category) => category.id === id))
+        .filter(Boolean);
+    const allCategories = window.categories;
+
+    let showAllCategories = false;
+
+    function renderCards() {
+        container.innerHTML = '';
+        const categoriesToRender = showAllCategories ? allCategories : featuredCategories;
+
+        categoriesToRender.forEach((category) => {
+            const card = createCard(category);
+            container.appendChild(card);
+            loadImages(category);
+        });
+
+        if (toggleButton) {
+            toggleButton.textContent = showAllCategories ? 'Show featured categories' : 'View all categories';
+            toggleButton.setAttribute('data-state', showAllCategories ? 'all' : 'featured');
+        }
+
+        handleScrollAnimation();
+    }
+
+    if (toggleButton) {
+        if (allCategories.length <= featuredCategories.length) {
+            toggleButton.style.display = 'none';
+        } else {
+            toggleButton.addEventListener('click', () => {
+                showAllCategories = !showAllCategories;
+                renderCards();
+            });
+        }
+    }
+
+    renderCards();
 }
 
 // Инициализация страницы

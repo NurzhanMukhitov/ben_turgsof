@@ -9,7 +9,7 @@ const categories = [
         imageHero: "assets/images/engineering/hero/agriculture.webp",
         description: "Innovative solutions for sustainable agricultural development.",
         content: {
-            overview: "The agricultural sector faces the challenge of optimizing water use while maintaining sustainability to meet growing global demands. Since farming consumes 70% of the world's freshwater supply, integrating cutting-edge technologies and best practices is essential for long-term success. At Alsuro, we are dedicated to delivering solutions that help farmers maintain high standards of water quality, distribution, and management—even in the most demanding conditions.",
+            overview: "The agricultural sector faces the challenge of optimizing water use while maintaining sustainability to meet growing global demands. Since farming consumes 70% of the world's freshwater supply, integrating cutting-edge technologies and best practices is essential for long-term success. At TURGSOF, we are dedicated to delivering solutions that help farmers maintain high standards of water quality, distribution, and management—even in the most demanding conditions.",
             approach: [
                 "Smart irrigation systems",
                 "Water quality management",
@@ -42,7 +42,7 @@ const categories = [
         imageHero: "assets/images/engineering/hero/aquaculture.webp",
         description: "Advanced systems for aquaculture and fish farming.",
         content: {
-            overview: "Aquaculture is one of the fastest-growing food industries, now supplying 50% of the world's fish consumption. As demand for farmed seafood continues to rise at a pace exceeding that of other meat industries, producers face both significant opportunities and mounting risks. For decades, Alsuro has collaborated with fish farmers, equipment manufacturers, system integrators, well boat builders, and seafood processors. With over 40 years of expertise in land-based recirculating aquaculture systems (RAS), flow-through setups, and open-water cage farming, our Aquaculture Center of Excellence is at the forefront of innovation.",
+            overview: "Aquaculture is one of the fastest-growing food industries, now supplying 50% of the world's fish consumption. As demand for farmed seafood continues to rise at a pace exceeding that of other meat industries, producers face both significant opportunities and mounting risks. For decades, TURGSOF has collaborated with fish farmers, equipment manufacturers, system integrators, well boat builders, and seafood processors. With over 40 years of expertise in land-based recirculating aquaculture systems (RAS), flow-through setups, and open-water cage farming, our Aquaculture Center of Excellence is at the forefront of innovation.",
             approach: [
                 "Recirculating aquaculture systems (RAS)",
                 "Water quality management",
@@ -75,7 +75,7 @@ const categories = [
         imageHero: "assets/images/engineering/hero/aquatics_pools.webp",
         description: "Professional solutions for aquatic facilities and pools.",
         content: {
-            overview: "Ensuring clean and safe water is essential for aquatic facilities of all types. Whether you manage a competitive swimming pool, water park, swim school, fitness center, zoo, or aquarium, Alsuro provides a full suite of solutions designed to meet your facility's unique needs. Effective filtration, disinfection, and water recirculation are crucial for maintaining both water and air quality in recreational settings.",
+            overview: "Ensuring clean and safe water is essential for aquatic facilities of all types. Whether you manage a competitive swimming pool, water park, swim school, fitness center, zoo, or aquarium, TURGSOF provides a full suite of solutions designed to meet your facility's unique needs. Effective filtration, disinfection, and water recirculation are crucial for maintaining both water and air quality in recreational settings.",
             approach: [
                 "Water quality optimization",
                 "Filtration system design",
@@ -108,7 +108,7 @@ const categories = [
         imageHero: "assets/images/engineering/hero/buildings_facilities.webp",
         description: "Comprehensive building and facility management solutions.",
         content: {
-            overview: "Modern buildings and facilities require reliable water management systems to ensure safety, efficiency, and sustainability. From commercial buildings to educational institutions, Alsuro provides tailored solutions that address the unique water challenges faced by facility managers and building owners.",
+            overview: "Modern buildings and facilities require reliable water management systems to ensure safety, efficiency, and sustainability. From commercial buildings to educational institutions, TURGSOF provides tailored solutions that address the unique water challenges faced by facility managers and building owners.",
             approach: [
                 "System assessment and design",
                 "Water quality management",
@@ -141,7 +141,7 @@ const categories = [
         imageHero: "assets/images/engineering/hero/construction.webp",
         description: "Advanced water management solutions for construction projects.",
         content: {
-            overview: "Construction projects face numerous water-related challenges, from dewatering and erosion control to water supply and wastewater management. Alsuro offers specialized solutions that help construction companies overcome these challenges while maintaining compliance with environmental regulations and project timelines.",
+            overview: "Construction projects face numerous water-related challenges, from dewatering and erosion control to water supply and wastewater management. TURGSOF offers specialized solutions that help construction companies overcome these challenges while maintaining compliance with environmental regulations and project timelines.",
             approach: [
                 "Site-specific assessment",
                 "Temporary water systems",
@@ -174,7 +174,7 @@ const categories = [
         imageHero: "assets/images/engineering/hero/energy_power_generation.webp",
         description: "Comprehensive water solutions for energy production.",
         content: {
-            overview: "The energy and power generation sector relies heavily on water for various processes, from cooling systems to steam production. Alsuro provides specialized water treatment and management solutions that enhance efficiency, reduce environmental impact, and ensure regulatory compliance across all types of power generation facilities.",
+            overview: "The energy and power generation sector relies heavily on water for various processes, from cooling systems to steam production. TURGSOF provides specialized water treatment and management solutions that enhance efficiency, reduce environmental impact, and ensure regulatory compliance across all types of power generation facilities.",
             approach: [
                 "System optimization",
                 "Water conservation",
@@ -207,7 +207,7 @@ const categories = [
         imageHero: "assets/images/engineering/hero/environment.webp",
         description: "Environmental protection and resource management solutions.",
         content: {
-            overview: "Environmental protection is at the core of sustainable water management. Alsuro develops and implements solutions that help organizations minimize their environmental footprint, protect natural water resources, and restore ecosystems affected by human activities.",
+            overview: "Environmental protection is at the core of sustainable water management. TURGSOF develops and implements solutions that help organizations minimize their environmental footprint, protect natural water resources, and restore ecosystems affected by human activities.",
             approach: [
                 "Ecosystem assessment",
                 "Pollution prevention",
@@ -240,7 +240,7 @@ const categories = [
         imageHero: "assets/images/engineering/hero/food_and_beverage.webp",
         description: "Specialized solutions for food and beverage production.",
         content: {
-            overview: "The food and beverage industry requires high-quality water for product formulation, processing, and cleaning operations. Alsuro provides comprehensive water and wastewater solutions that ensure product quality, safety, and regulatory compliance while optimizing resource use and reducing operational costs.",
+            overview: "The food and beverage industry requires high-quality water for product formulation, processing, and cleaning operations. TURGSOF provides comprehensive water and wastewater solutions that ensure product quality, safety, and regulatory compliance while optimizing resource use and reducing operational costs.",
             approach: [
                 "Process water optimization",
                 "Quality assurance",
@@ -273,7 +273,7 @@ const categories = [
         imageHero: "assets/images/engineering/hero/general_industry.webp",
         description: "Comprehensive industrial water management solutions.",
         content: {
-            overview: "Industrial operations across various sectors face common challenges in water management, including process water treatment, wastewater handling, and regulatory compliance. Alsuro offers versatile solutions that address these challenges while improving operational efficiency and sustainability.",
+            overview: "Industrial operations across various sectors face common challenges in water management, including process water treatment, wastewater handling, and regulatory compliance. TURGSOF offers versatile solutions that address these challenges while improving operational efficiency and sustainability.",
             approach: [
                 "Process assessment",
                 "System optimization",
@@ -306,7 +306,7 @@ const categories = [
         imageHero: "assets/images/engineering/hero/healthcare.webp",
         description: "Specialized water solutions for healthcare facilities.",
         content: {
-            overview: "Healthcare facilities require ultra-pure water for various critical applications, from laboratory testing to equipment sterilization. Alsuro provides specialized water treatment solutions that meet the stringent quality standards of the healthcare industry while ensuring patient safety and operational efficiency.",
+            overview: "Healthcare facilities require ultra-pure water for various critical applications, from laboratory testing to equipment sterilization. TURGSOF provides specialized water treatment solutions that meet the stringent quality standards of the healthcare industry while ensuring patient safety and operational efficiency.",
             approach: [
                 "Quality assurance",
                 "Infection control",
@@ -339,7 +339,7 @@ const categories = [
         imageHero: "assets/images/engineering/hero/metals_mining.webp",
         description: "Advanced solutions for mining and metal processing.",
         content: {
-            overview: "The metals and mining industry faces unique water management challenges, from acid mine drainage to process water treatment and tailings management. Alsuro develops customized solutions that address these challenges while promoting sustainability, regulatory compliance, and operational efficiency.",
+            overview: "The metals and mining industry faces unique water management challenges, from acid mine drainage to process water treatment and tailings management. TURGSOF develops customized solutions that address these challenges while promoting sustainability, regulatory compliance, and operational efficiency.",
             approach: [
                 "Site-specific assessment",
                 "Water balance optimization",
@@ -372,7 +372,7 @@ const categories = [
         imageHero: "assets/images/engineering/hero/microelectronics.webp",
         description: "Ultra-pure water solutions for semiconductor manufacturing.",
         content: {
-            overview: "The microelectronics and semiconductor industry requires ultra-pure water for manufacturing processes, where even microscopic contaminants can cause product defects. Alsuro provides advanced water purification systems that meet the exacting standards of this high-tech industry while optimizing resource use and operational efficiency.",
+            overview: "The microelectronics and semiconductor industry requires ultra-pure water for manufacturing processes, where even microscopic contaminants can cause product defects. TURGSOF provides advanced water purification systems that meet the exacting standards of this high-tech industry while optimizing resource use and operational efficiency.",
             approach: [
                 "Contamination control",
                 "Process optimization",
@@ -405,7 +405,7 @@ const categories = [
         imageHero: "assets/images/engineering/hero/municipal_drinking.webp",
         description: "Advanced solutions for municipal water treatment.",
         content: {
-            overview: "Providing safe, clean drinking water is essential for public health and community well-being. Alsuro works with municipalities to design, implement, and maintain water treatment systems that ensure consistent water quality, regulatory compliance, and operational efficiency, even as communities grow and regulations evolve.",
+            overview: "Providing safe, clean drinking water is essential for public health and community well-being. TURGSOF works with municipalities to design, implement, and maintain water treatment systems that ensure consistent water quality, regulatory compliance, and operational efficiency, even as communities grow and regulations evolve.",
             approach: [
                 "Source water protection",
                 "Treatment optimization",
@@ -438,7 +438,7 @@ const categories = [
         imageHero: "assets/images/engineering/hero/municipal_wastewater.webp",
         description: "Comprehensive municipal wastewater treatment solutions.",
         content: {
-            overview: "Effective wastewater treatment is crucial for environmental protection and public health. Alsuro provides municipalities with advanced solutions for collecting, treating, and managing wastewater, helping communities meet regulatory requirements while recovering valuable resources and protecting natural water bodies.",
+            overview: "Effective wastewater treatment is crucial for environmental protection and public health. TURGSOF provides municipalities with advanced solutions for collecting, treating, and managing wastewater, helping communities meet regulatory requirements while recovering valuable resources and protecting natural water bodies.",
             approach: [
                 "Process optimization",
                 "Energy efficiency",
@@ -471,7 +471,7 @@ const categories = [
         imageHero: "assets/images/engineering/hero/oil_gas.webp",
         description: "Specialized solutions for oil and gas operations.",
         content: {
-            overview: "The oil and gas industry faces complex water management challenges throughout the exploration, production, and refining processes. Alsuro provides specialized solutions for produced water treatment, enhanced oil recovery, and process water management that improve operational efficiency while ensuring environmental compliance.",
+            overview: "The oil and gas industry faces complex water management challenges throughout the exploration, production, and refining processes. TURGSOF provides specialized solutions for produced water treatment, enhanced oil recovery, and process water management that improve operational efficiency while ensuring environmental compliance.",
             approach: [
                 "Produced water management",
                 "Process optimization",
@@ -504,7 +504,7 @@ const categories = [
         imageHero: "assets/images/engineering/hero/pharmaceutical.webp",
         description: "High-purity water solutions for pharmaceutical manufacturing.",
         content: {
-            overview: "Water is a fundamental component in pharmaceutical manufacturing, used in everything from drug production and laboratory applications to equipment sterilization. Maintaining the highest standards of purity and compliance is essential to ensure product safety and effectiveness. Alsuro offers a full range of water treatment solutions tailored to the pharmaceutical industry's strict requirements.",
+            overview: "Water is a fundamental component in pharmaceutical manufacturing, used in everything from drug production and laboratory applications to equipment sterilization. Maintaining the highest standards of purity and compliance is essential to ensure product safety and effectiveness. TURGSOF offers a full range of water treatment solutions tailored to the pharmaceutical industry's strict requirements.",
             approach: [
                 "Quality assurance",
                 "Process validation",
@@ -537,7 +537,7 @@ const categories = [
         imageHero: "assets/images/engineering/hero/refining_and_chemicals.webp",
         description: "Advanced solutions for chemical and refining processes.",
         content: {
-            overview: "The refining and chemical industries rely on water for numerous processes, from cooling and steam generation to product formulation and equipment cleaning. Alsuro provides comprehensive water management solutions that enhance process efficiency, ensure product quality, and support environmental compliance in these demanding industrial environments.",
+            overview: "The refining and chemical industries rely on water for numerous processes, from cooling and steam generation to product formulation and equipment cleaning. TURGSOF provides comprehensive water management solutions that enhance process efficiency, ensure product quality, and support environmental compliance in these demanding industrial environments.",
             approach: [
                 "Process water optimization",
                 "Cooling system management",
@@ -570,7 +570,7 @@ const categories = [
         imageHero: "assets/images/engineering/hero/transportation.webp",
         description: "Specialized solutions for transportation applications.",
         content: {
-            overview: "The transportation sector, including aviation, maritime, rail, and road transportation, faces unique water management challenges related to vehicle maintenance, facility operations, and environmental compliance. Alsuro provides specialized solutions that address these challenges while promoting operational efficiency and sustainability.",
+            overview: "The transportation sector, including aviation, maritime, rail, and road transportation, faces unique water management challenges related to vehicle maintenance, facility operations, and environmental compliance. TURGSOF provides specialized solutions that address these challenges while promoting operational efficiency and sustainability.",
             approach: [
                 "Facility assessment",
                 "System optimization",
@@ -603,7 +603,7 @@ const categories = [
         imageHero: "assets/images/engineering/hero/utility_infrastructure.webp",
         description: "Innovative solutions for utility infrastructure.",
         content: {
-            overview: "Modern utility infrastructure requires intelligent water and energy management systems to ensure reliability, efficiency, and sustainability. Alsuro provides advanced solutions for water distribution networks, smart metering, leak detection, and infrastructure monitoring that help utilities optimize operations and improve service delivery.",
+            overview: "Modern utility infrastructure requires intelligent water and energy management systems to ensure reliability, efficiency, and sustainability. TURGSOF provides advanced solutions for water distribution networks, smart metering, leak detection, and infrastructure monitoring that help utilities optimize operations and improve service delivery.",
             approach: [
                 "Network assessment",
                 "Smart system integration",
